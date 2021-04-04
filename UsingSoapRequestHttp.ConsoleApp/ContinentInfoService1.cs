@@ -10,7 +10,7 @@ using System.Xml.Linq;
 
 namespace UsingSoapRequestHttp.ConsoleApp
 {
-    public class CountryInfoService1
+    public class ContinentInfoService1
     {
         //<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
         //  <soap:Body>
