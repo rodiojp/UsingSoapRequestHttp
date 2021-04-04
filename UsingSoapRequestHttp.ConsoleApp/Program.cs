@@ -45,10 +45,10 @@ namespace UsingSoapRequestHttp.ConsoleApp
             //writing stream result on XML
             XmlDocument xmlResult = new XmlDocument();
             xmlResult.LoadXml(strResult);
-            Console.WriteLine("List of continents:");
+
             ContinentInfoService service = new ContinentInfoService(xmlResult);
             IList<string> list = service.GetContinets();
-
+            Console.WriteLine("List of continents:");
             foreach (var item in list)
             {
                 Console.WriteLine(item);
